@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecurePreferencesDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="response_value">store value is here!</string>
+    <string name="value_store">Write here your value to store</string>
+    <string name="button_store_value">Store Value</string>
+    <string name="button_load_value">Load Value</string>
+    <string name="data_store">Data Stored!</string>
+    <string name="emptyValue">The store is empty!</string>
+    <string name="button_store_system_value">Store on system pref</string>
+    <string name="button_load_system_value">Load for system pref</string>
+
+</resources>

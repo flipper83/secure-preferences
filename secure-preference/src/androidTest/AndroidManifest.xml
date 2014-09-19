@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.karumi.securepreferences"
+android:versionCode="1"
+android:versionName="0.1">
+
+<uses-sdk
+    android:minSdkVersion="18"
+    android:targetSdkVersion="20" />
+
+<!-- We add an application tag here just so that we can indicate that
+     this package needs to link against the android.test library,
+     which is needed when building test cases. -->
+<application>
+  <uses-library android:name="android.test.runner" />
+</application>
+
+<!--
+Specifies the instrumentation test runner used to run the tests.
+-->
+<instrumentation
+    android:name="android.test.InstrumentationTestRunner"
+    android:targetPackage="com.karumi.securepreferences"
+    android:label="Tests for com.karumi.securepreferences" />
+
+</manifest>
